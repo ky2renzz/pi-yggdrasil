@@ -1,4 +1,4 @@
-# pi-multi-repo
+# pi-yggdrasil
 
 Minimal Pi extension for multi-repo workspaces.
 
@@ -6,12 +6,12 @@ Minimal Pi extension for multi-repo workspaces.
 
 ```bash
 # Linux/macOS
-mkdir -p ~/.pi/agent/extensions/pi-multi-repo
-cp src/index.ts package.json ~/.pi/agent/extensions/pi-multi-repo/
-cd ~/.pi/agent/extensions/pi-multi-repo && npm install
+mkdir -p ~/.pi/agent/extensions/pi-yggdrasil
+cp src/index.ts package.json ~/.pi/agent/extensions/pi-yggdrasil/
+cd ~/.pi/agent/extensions/pi-yggdrasil && npm install
 
 # Windows (PowerShell)
-$dir = "$env:USERPROFILE\.pi\agent\extensions\pi-multi-repo"
+$dir = "$env:USERPROFILE\.pi\agent\extensions\pi-yggdrasil"
 New-Item -ItemType Directory -Force -Path $dir
 Copy-Item src/index.ts, package.json $dir
 Set-Location $dir; npm install

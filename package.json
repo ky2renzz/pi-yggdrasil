@@ -1,5 +1,5 @@
 {
-  "name": "pi-multi-repo",
+  "name": "pi-yggdrasil",
   "version": "0.1.1",
   "description": "Minimal multi-repo workspace extension for Pi coding agent",
   "type": "module",
