@@ -1,0 +1,12 @@
+{
+  "name": "pi-multi-repo",
+  "version": "0.1.1",
+  "description": "Minimal multi-repo workspace extension for Pi coding agent",
+  "type": "module",
+  "keywords": ["pi", "extension", "workspace", "multi-repo"],
+  "license": "MIT",
+  "dependencies": {
+    "@mariozechner/pi-coding-agent": "^0.70.2",
+    "@mariozechner/pi-ai": "^0.70.2"
+  }
+}

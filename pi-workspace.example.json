@@ -1,0 +1,7 @@
+{
+  "name": "my-project",
+  "repos": [
+    { "name": "api", "path": "../api", "description": "Backend API" },
+    { "name": "web", "path": "../web", "description": "Frontend app" }
+  ]
+}
