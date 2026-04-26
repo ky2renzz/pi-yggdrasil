@@ -224,7 +224,6 @@ export default function (pi: ExtensionAPI) {
     },
   });
 
-
   pi.registerCommand("workspace", {
     description: "Show workspace info",
     handler: async (_args, ctx) => {
